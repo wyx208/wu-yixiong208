@@ -1,0 +1,32 @@
+import turtle
+turtle.setup(850,350,200,200)
+turtle.penup()
+turtle.fd(-250)
+turtle.pendown()
+turtle.pensize(25)
+turtle.pencolor("red")
+turtle.seth(-40)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.pencolor("black")
+turtle.seth(-40)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.pencolor("orange")
+turtle.seth(-40)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.pencolor("yellow")
+turtle.seth(-40)
+for i in range(1):
+    turtle.circle(40,80)
+    turtle.circle(-40,80)
+turtle.circle(40)
+turtle.circle(40,80/2)
+turtle.fd(100)
+turtle.pencolor("red")
+turtle.circle(16,180)
+turtle.fd(40*2/3)
